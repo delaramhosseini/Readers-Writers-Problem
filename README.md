@@ -7,6 +7,8 @@ This project implements a solution for the classic Readers-Writers Problem, simu
 Synchronization mechanisms in an operating system are techniques used to control the access of multiple processes or threads to shared resources in order to prevent conflicts and ensure data consistency. These mechanisms are essential in multi-threaded and multi-process environments where processes or threads may need to access shared data or resources simultaneously. Here’s a detailed overview:
 In this solution, synchronization mechanisms (locks and conditions) are used to solve the problem of concurrent access to a shared resource:
 
+<img width="1020" alt="Screenshot 1403-07-25 at 10 55 46" src="https://github.com/user-attachments/assets/ec6e7a57-2c87-42f7-9b5e-7f7e5a3aba43">
+
 ### Types of Synchronization Mechanisms
 1. Mutex (Mutual Exclusion):
    - A mutex is a locking mechanism that ensures that only one thread can access a resource at a time. When a thread locks a mutex, other threads trying to lock the same mutex will block until it is unlocked.
